@@ -7,8 +7,6 @@
 	<packaging>war</packaging>
 	<build>
 		<sourceDirectory>src</sourceDirectory>
-
-
 		<plugins>
 			<plugin>
 				<artifactId>maven-compiler-plugin</artifactId>
@@ -33,6 +31,13 @@
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-context</artifactId>
 			<version>4.3.4.RELEASE</version>
+		</dependency>
+
+		<!-- Failed to instantiate [org.springframework.aop.aspectj.AspectJExpressionPointcut] -->
+		<dependency>
+			<groupId>aspectj</groupId>
+			<artifactId>aspectjtools</artifactId>
+			<version>1.5.0</version>
 		</dependency>
 	</dependencies>
 </project>
