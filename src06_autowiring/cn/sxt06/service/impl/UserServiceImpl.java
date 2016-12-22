@@ -1,7 +1,7 @@
-package cn.sxt04.service.impl;
+package cn.sxt06.service.impl;
 
-import cn.sxt04.dao.UserDao;
-import cn.sxt04.service.UserService;
+import cn.sxt06.dao.UserDao;
+import cn.sxt06.service.UserService;
 
 public class UserServiceImpl implements UserService{
 	private UserDao userDao=null;

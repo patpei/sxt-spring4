@@ -1,6 +1,6 @@
-package cn.sxt04.dao.impl;
+package cn.sxt06.dao.impl;
 
-import cn.sxt04.dao.UserDao;
+import cn.sxt06.dao.UserDao;
 
 public class UserDaoOracleImpl implements UserDao{
 	@Override

@@ -1,4 +1,4 @@
-package cn.sxt04.service;
+package cn.sxt06.service;
 
 public interface UserService {
 	public void getUser();
