@@ -16,12 +16,12 @@ public class Client {
 		pih.setTarget(userService);
 		UserService proxy = (UserService)pih.getProxy();
 		proxy.delete();
-		
+		System.out.println("----------");
 		MyInvocationHandler ph = new MyInvocationHandler();
 		ph.setTarget(new ArrayList());
 		List list = (List)ph.getProxy();
 		list.add(1);
-		
+		System.out.println("----------");
 		Object o=getProxy();
 		System.out.println(o.getClass().getName()); //com.sun.proxy.$Proxy0
 		UserService proxy1 = (UserService) o;
