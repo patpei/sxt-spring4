@@ -1,4 +1,6 @@
-package cn.sxt07.service;
+package cn.sxt07.service.impl;
+
+import cn.sxt07.service.UserService;
 
 public class UserServiceProxy implements UserService{
 	private UserService userService;
@@ -21,9 +23,9 @@ public class UserServiceProxy implements UserService{
 		log("search");
 		userService.search();
 	}
-	public void update() {
+	public void update(int a) {
 		log("update");
-		userService.update();
+		userService.update(a);
 	}
 	public void log(String methodName){
 		System.out.println("Ö´ÐÐ"+methodName+"·½·¨");

@@ -3,7 +3,7 @@ package cn.sxt09.test;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
-import cn.sxt09.service.UserService;
+import cn.sxt07.service.UserService;
 
 public class Client {
 	public static void main(String[] args) {

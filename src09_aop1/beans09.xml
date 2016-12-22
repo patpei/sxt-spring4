@@ -6,11 +6,11 @@
     http://www.springframework.org/schema/beans/spring-beans.xsd 
     http://www.springframework.org/schema/aop
     http://www.springframework.org/schema/aop/spring-aop.xsd">
-    <bean id="userService" class="cn.sxt09.service.impl.UserServiceImpl"/>
+    <bean id="userService" class="cn.sxt07.service.impl.UserServiceImpl"/>
     <bean id="log" class="cn.sxt09.log.Log"/>
     <bean id="afterLog" class="cn.sxt09.log.AfterLog"/>
     <aop:config>
-    	<aop:pointcut expression="execution(* cn.sxt09.service.impl.*.*(..))" id="pointcut"/>
+    	<aop:pointcut expression="execution(* cn.sxt07.service.impl.*.*(..))" id="pointcut"/>
     	<aop:advisor advice-ref="log" pointcut-ref="pointcut"/>
     	<aop:advisor advice-ref="afterLog" pointcut-ref="pointcut"/>
     </aop:config>
