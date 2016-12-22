@@ -5,7 +5,7 @@
     xsi:schemaLocation="
         http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
         http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop.xsd">
-	<bean id="userService" class="cn.sxt11.service.impl.UserServiceImpl"/>
+	<bean id="userService" class="cn.sxt07.service.impl.UserServiceImpl"/>
 	<bean id="log" class="cn.sxt11.log.Log"/>
 	
 	<aop:aspectj-autoproxy/>

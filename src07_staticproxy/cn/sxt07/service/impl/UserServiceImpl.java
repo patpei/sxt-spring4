@@ -17,8 +17,9 @@ public class UserServiceImpl implements UserService {
 	}	
 
 	@Override
-	public void delete() {
+	public int delete() {
 		System.out.println("É¾³ıÓÃ»§");
+		return 1;
 	}
 
 	@Override
